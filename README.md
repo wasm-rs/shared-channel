@@ -1,6 +1,7 @@
 # Shared Channel for WebAssembly
 [![Crate](https://img.shields.io/crates/v/wasm-rs-shared-channel.svg)](https://crates.io/crates/wasm-rs-shared-channel)
 [![API](https://docs.rs/wasm-rs-shared-channel/badge.svg)](https://docs.rs/wasm-rs-shared-channel)
+[![Chat](https://img.shields.io/discord/807386653852565545.svg?logo=discord)](https://discord.gg/qbcbjHWjaD)
 
 This crate provides a way for WebAssembly threads to receive messages from other threads using
 a JavaScript primitive called `SharedArrayBuffer` which allows to share memory and use atomics
