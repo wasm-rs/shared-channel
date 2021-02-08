@@ -4,18 +4,16 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "start": "webpack-dashboard -- webpack-dev-server"
+    "start": "webpack serve"
   },
   "dependencies": {
     "pkg": "file:pkg"
   },
   "devDependencies": {
-    "arraybuffer-loader": "^1.0.8",
-    "copy-webpack-plugin": "^5.0.0",
-    "webpack": "^4.29.3",
-    "webpack-cli": "^3.1.0",
-    "webpack-dashboard": "^3.3.1",
-    "webpack-dev-server": "^3.1.5",
+    "copy-webpack-plugin": "^7",
+    "webpack": "^5",
+    "webpack-cli": "^4",
+    "webpack-dev-server": "^3.11.2",
     "worker-loader": "^3.0.7"
   }
 }
